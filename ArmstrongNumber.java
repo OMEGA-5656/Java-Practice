@@ -15,7 +15,7 @@ public class ArmstrongNumber {
         while(temp2>0){
             int temp3 = temp2%10;
             temp2/=10;
-            sum+= Math.pow(temp3,count);
+            sum += Math.pow(temp3,count);
         }
         if(sum==a){
             System.out.println("Armstrong");
