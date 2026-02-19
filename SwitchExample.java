@@ -1,12 +1,12 @@
 import java.util.*;
 public class SwitchExample {
     public static void main(String args[]){
-        String ch = "";
-        while(!ch.equals("0")){
+        String choice = "";
+        while(!choice.equals("0")){
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter 0 to exit or 'V','I','B','G','Y','O','R': ");
-            ch = sc.nextLine();
-            switch(ch){
+            choice = sc.nextLine();
+            switch(choice){
                 case("V"):
                     System.out.println("Violet");
                     break;
