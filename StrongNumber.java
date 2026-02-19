@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class StrongNumber {
-    public static int fact(int n){
+    static int fact(int n){
         int prod = 1;
         if(n==0){
             System.out.println(0);
