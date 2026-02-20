@@ -20,6 +20,7 @@ public class SnakeNumberPattern {
             }
             top++;
         }
+        //pretty print
         int maxLength = Integer.toString(n*n).length();
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
