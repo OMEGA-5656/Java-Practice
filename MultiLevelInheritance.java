@@ -10,7 +10,7 @@ class Parent extends GrandParent{
     }
 }
 
-public class MultipleInheritance extends Parent{
+public class MultiLevelInheritance extends Parent{
     public static void main(String[] args){
         System.out.println("Inside child class.");
         parentDisplay();
