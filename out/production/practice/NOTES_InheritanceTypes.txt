@@ -1,0 +1,18 @@
+Inheritance - use the word 'extends'
+
+Types of Inheritance
+
+1)Single-Level Inheritance
+    Inheriting thingies from only 1 parent class.
+
+2)Multi-Level Inheritance
+    Inherits thingies from a parent class which inturn has inherited from a/many grandparent class(es).
+
+3)Multiple Inheritance
+    Inheriting from multiple parents (not possible in java,(hmm well kind of possible using interfaces)).
+
+4)Hierarchical Inheritance
+    Inhertance in a family tree like manner.
+
+5)Hybrid Inheritance
+    Combination of two or more types of inheritance.
