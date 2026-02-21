@@ -4,6 +4,7 @@ class Parent3{
     }
 }
 public class MethodOverriding extends Parent3{
+    @Override
     void display(){
         System.out.println("Inside the overridden method.");
         super.display();
