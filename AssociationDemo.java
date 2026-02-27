@@ -11,6 +11,22 @@ class Student{
     }
 }
 
+class Department{
+
+}
+
+class College{
+    String collName;
+    Department department;
+    College(String collName,Department department){
+        this.collName = collName;
+        this.department = department;
+    }
+    void display(){
+        System.out.println(collName+" has dept "+department);
+    }
+}
+
 public class AssociationDemo {
     public static void main(String args[]){
         Teacher t = new Teacher("xyz");
