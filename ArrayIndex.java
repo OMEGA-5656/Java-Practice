@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class ArrayIndex {
-    static void printElement(int[] arr,int index) throws Exception{
+    static void printElement(int[] arr,int index){
         if(index<0 || index>=arr.length){
             throw new ArrayIndexOutOfBoundsException("Range se bahr.");
         }
