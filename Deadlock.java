@@ -17,5 +17,18 @@ public class Deadlock {
                 }
             }
         });
+        Thread t2 = new Thread(()->{
+            System.out.println("Thread 2 locked ObjB");
+            try{
+                Thread.sleep(10000);
+            }
+            catch(Exception e ){}
+            System.out.println("Thread 2 waiting for ObjA");
+            synchronized (a){
+                System.out.println("Thread 2 locked objA");
+            }
+        });
+        t1.start();
+        t2.start();
     }
 }
