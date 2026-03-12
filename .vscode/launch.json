@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RatInAMaze2D",
+            "request": "launch",
+            "mainClass": "RatInAMaze2D",
+            "projectName": "Java-Practice_99d2ae91"
+        },
+        {
+            "type": "java",
             "name": "CatalanSeries",
             "request": "launch",
             "mainClass": "CatalanSeries",
