@@ -5,6 +5,7 @@ public class HappyNumber {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         happy(a,a,0);
+        sc.close();
     }
     public static void happy(int num,int orignal,int recurCount){
         int sum=0;

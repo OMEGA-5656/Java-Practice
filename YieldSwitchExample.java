@@ -17,6 +17,7 @@ public class YieldSwitchExample {
                 default -> {yield "Blank";}
             };
             System.out.println("Color is "+color);
+            sc.close();
         }
     }
 }

@@ -10,5 +10,6 @@ public class InvertedRightAngleTrianglePattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -21,6 +21,6 @@ public class KaprekarNum {
         if(flag==false){
             System.out.println("Not a Kaprekar number");
         }
-
+        sc.close();
     }
 }

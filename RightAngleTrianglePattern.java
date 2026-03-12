@@ -10,5 +10,6 @@ public class RightAngleTrianglePattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

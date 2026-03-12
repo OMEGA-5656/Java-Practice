@@ -15,5 +15,6 @@ public class Factorial {
             n-=1;
         }
         System.out.println(prod);
+        sc.close();
     }
 }

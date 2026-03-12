@@ -14,5 +14,6 @@ public class LinearSearch {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the search element: ");
         System.out.println("Found at index: "+linearSearch(arr,sc.nextInt()));
+        sc.close();
     }
 }

@@ -33,5 +33,6 @@ public class StrongNumber {
             System.out.println("Not a Strong Number.");
             System.out.println("Sum of Factorial of Digits = "+sumOfFacts);
         }
+        sc.close();
     }
 }

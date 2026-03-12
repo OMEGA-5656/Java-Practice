@@ -15,5 +15,6 @@ public class Fibonacci {
             secondNum = firstNum + temp;
             System.out.println(secondNum);
         }
+        sc.close();
     }
 }

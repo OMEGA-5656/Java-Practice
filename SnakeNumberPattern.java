@@ -33,5 +33,6 @@ public class SnakeNumberPattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

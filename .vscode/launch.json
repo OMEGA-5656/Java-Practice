@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "ArmstrongNumber",
+            "projectName": "Java-Practice_99d2ae91"
+        },
+        {
+            "type": "java",
+            "name": "ConstructorExample",
+            "request": "launch",
+            "mainClass": "ConstructorExample",
+            "projectName": "Java-Practice_99d2ae91"
+        },
+        {
+            "type": "java",
             "name": "EvenOddWithoutMod",
             "request": "launch",
             "mainClass": "EvenOddWithoutMod",

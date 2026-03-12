@@ -24,6 +24,6 @@ public class StringMethods {
         // trim() removes space
         input=" "+input+" ";
         System.out.println(input.trim());
-
+        sc.close();
     }
 }

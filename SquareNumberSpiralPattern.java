@@ -42,5 +42,6 @@ public class SquareNumberSpiralPattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -13,5 +13,6 @@ public class MirroredNumberRightAngleTrianglePattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

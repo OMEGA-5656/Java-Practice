@@ -12,5 +12,6 @@ public class HammingWeight {
             a=a>>1;
         }
         System.out.println("Hamming weight: "+count);
+        sc.close();
     }
 }

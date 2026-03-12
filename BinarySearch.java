@@ -26,5 +26,6 @@ public class BinarySearch {
         System.out.print("Enter the target element: ");
         int target = sc.nextInt();
         System.out.println("\nFound "+target+" at index: "+search(arr,target));
+        sc.close();
     }
 }

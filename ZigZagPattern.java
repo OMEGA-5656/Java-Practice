@@ -21,5 +21,6 @@ public class ZigZagPattern {
             System.out.println();
 
         }
+        sc.close();
     }
 }

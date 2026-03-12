@@ -13,5 +13,6 @@ public class NumberPyramidPattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

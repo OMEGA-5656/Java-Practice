@@ -10,5 +10,6 @@ public class NumberRightAngleTrianglePattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -29,6 +29,7 @@ public class SwitchExample {
                     System.out.println("Red");
                     break;
             }
+            sc.close();
         }
     }
 }

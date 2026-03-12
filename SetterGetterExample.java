@@ -27,5 +27,6 @@ public class SetterGetterExample {
         //Using the getter
         System.out.println("Name: "+ob.getName());
         System.out.println("Super Power: "+ob.getPower());
+        sc.close();
     }
 }

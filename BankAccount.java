@@ -101,7 +101,7 @@ public class BankAccount {
             }
         }
         System.out.println("Max Attempts Exceeded. \nExiting...");
-
+        sc.close();
     }
 
 
