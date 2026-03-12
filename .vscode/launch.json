@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TribonacciSeries",
+            "request": "launch",
+            "mainClass": "TribonacciSeries",
+            "projectName": "Java-Practice_99d2ae91"
+        },
+        {
+            "type": "java",
             "name": "RecusionStackDemo",
             "request": "launch",
             "mainClass": "RecusionStackDemo",
