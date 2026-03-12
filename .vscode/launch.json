@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CatalanSeries",
+            "request": "launch",
+            "mainClass": "CatalanSeries",
+            "projectName": "Java-Practice_99d2ae91"
+        },
+        {
+            "type": "java",
+            "name": "IndirectRecursion",
+            "request": "launch",
+            "mainClass": "IndirectRecursion",
+            "projectName": "Java-Practice_99d2ae91"
+        },
+        {
+            "type": "java",
             "name": "TribonacciSeries",
             "request": "launch",
             "mainClass": "TribonacciSeries",
