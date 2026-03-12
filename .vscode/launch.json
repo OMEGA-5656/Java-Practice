@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RecusionStackDemo",
+            "request": "launch",
+            "mainClass": "RecusionStackDemo",
+            "projectName": "Java-Practice_99d2ae91"
+        },
+        {
+            "type": "java",
             "name": "ArmstrongNumber",
             "request": "launch",
             "mainClass": "ArmstrongNumber",

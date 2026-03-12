@@ -1,4 +1,3 @@
-import java.util.*;
 class Thread2 extends Thread{
     public void run() {
         System.out.println(getName() + "Started state " + getState());
