@@ -52,16 +52,13 @@ class Trie{
 
     public static void main(String[] args){
         Trie trie = new Trie();
-        trie.insert("apple");
-        trie.insert("app");
-        trie.insert("bat");
+        trie.insert("cat");
+        trie.insert("car");
+        trie.insert("dog");
 
-        System.out.println("search(apple) = " + trie.search("apple"));   // true
-        System.out.println("search(app) = " + trie.search("app"));       // true
-        System.out.println("search(ap) = " + trie.search("ap"));         // false
-        System.out.println("startsWith(ap) = " + trie.startsWith("ap")); // true
-        System.out.println("startsWith(ba) = " + trie.startsWith("ba")); // true
-        System.out.println("search(bat) = " + trie.search("bat"));       // true
-        System.out.println("search(ball) = " + trie.search("ball"));     // false
+        System.out.println(trie.search("cat"));
+        System.out.println(trie.search("car"));
+        System.out.println(trie.search("can"));
+        System.out.println(trie.search("dog"));
     }
 }
