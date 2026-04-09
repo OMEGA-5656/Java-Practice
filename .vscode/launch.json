@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Trie",
+            "request": "launch",
+            "mainClass": "Trie",
+            "projectName": "Java-Practice_99d2ae91"
+        },
+        {
+            "type": "java",
+            "name": "HeapSort",
+            "request": "launch",
+            "mainClass": "HeapSort",
+            "projectName": "Java-Practice_99d2ae91"
+        },
+        {
+            "type": "java",
             "name": "RatInAMaze2D",
             "request": "launch",
             "mainClass": "RatInAMaze2D",
