@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SegmentTree",
+            "request": "launch",
+            "mainClass": "SegmentTree",
+            "projectName": "Java-Practice_99d2ae91"
+        },
+        {
+            "type": "java",
             "name": "Trie",
             "request": "launch",
             "mainClass": "Trie",
