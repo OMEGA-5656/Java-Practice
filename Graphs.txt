@@ -1,0 +1,1 @@
+A graph is a set of vertices and edges. Graphs can be directed or undirected and may be weighted.
