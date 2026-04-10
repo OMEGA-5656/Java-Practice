@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BFS",
+            "request": "launch",
+            "mainClass": "BFS",
+            "projectName": "Java-Practice_99d2ae91"
+        },
+        {
+            "type": "java",
             "name": "DFS",
             "request": "launch",
             "mainClass": "DFS",
